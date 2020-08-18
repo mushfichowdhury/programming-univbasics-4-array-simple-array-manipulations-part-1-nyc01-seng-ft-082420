@@ -11,7 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  array.pop
+  array.pop[end]
 end
 
 def using_unshift(array)
@@ -19,7 +19,8 @@ def using_unshift(array)
 end
 
 def shift_with_args(array)
-  
+  array.shift[2]
+end
 
 #pop_with_args
   takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them (FAILED - 1)
