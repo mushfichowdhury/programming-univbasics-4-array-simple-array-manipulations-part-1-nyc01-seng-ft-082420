@@ -8,6 +8,5 @@ end
 
 
 def using_pop(array)
-  array.pop 
-  returns array
+  array.pop
 end
